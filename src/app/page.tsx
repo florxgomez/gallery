@@ -1,5 +1,8 @@
 import { db } from "~/server/db";
 
+// we want to make this page dynamic because we want to make sure every time there's a change in our db, the page's content is updated
+export const dynamic = "force-dynamic";
+
 const mockUrls = [
   "https://utfs.io/f/45e48797-c5d5-4a6f-afd9-b5b0161809a7-1xf4e9.JPG",
   "https://utfs.io/f/4c1b1854-f7a1-4ec7-9232-f0a105de80a0-63jlzi.jpeg",
